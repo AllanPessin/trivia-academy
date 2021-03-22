@@ -44,7 +44,7 @@ class _TriviaScreenState extends State<TriviaScreen> {
                   height: 16.0,
                 ),
                 Text(
-                  questionsList[0].questionText,
+                  questionsList[index].questionText,
                   style: TextStyle(fontSize: 18),
                 ),
               ],
@@ -184,7 +184,7 @@ class _TriviaScreenState extends State<TriviaScreen> {
                   }
                 },
                 child: Text(
-                  "Reponder",
+                  "Responder",
                   style: TextStyle(
                     fontSize: 16,
                   ),
